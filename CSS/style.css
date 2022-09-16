@@ -1,0 +1,118 @@
+/* Place your CSS styles in this file */
+
+*  {
+    font-weight: 200;
+    font-family: 'ByoRhyme', 'serif';
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    background-color: #36393f;
+    display: flex;
+}
+
+h1{
+    padding-left: 10px;
+    color: #585c63;
+    text-align: center;
+    background-color: inherit;
+}
+
+.avatar {
+    
+    vertical-align: middle;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #1e2124;
+    padding-bottom: 5px;
+  }
+
+
+
+
+  /* Style the tab */
+.tab {
+  margin-right: 50px;
+    float: left;
+    border: 1px solid #ccc;
+    background-color: #1e2124;
+    width: 15%;
+    height: 300px;
+    border-radius: 10%;
+    padding: 10px;
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    display: block;
+    background-color: inherit;
+    color: white;
+    padding: 22px 16px;
+    border-radius: 10%;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #424549;
+  }
+
+  .tabcontent {
+    float: left;
+    padding: 0px 12px;
+    border: 1px solid #ccc;
+    width: 70%;
+    border-left: none;
+    height: 300px;
+  }
+
+
+  .tab .active {
+    background-color: #2f3133;
+    
+  }
+.tablinks {
+    color: #585c63;
+}
+
+.bing {
+  background: transparent;
+  display: inline-flex;
+}
+
+.about {
+  width: 50%;
+  padding-left: 10px;
+  color: white;
+}
+
+.port {
+  margin-right: 40px;
+  width: 26.5%;
+  padding-left: 10px;
+  color: white;
+}
+
+.sections {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: column;
+  gap: 1em;
+  align-items: center;
+  width: min(40vw, 25em);
+  padding: 2em;
+  border: 1px solid currentColor;
+  border-radius: 1.5em;
+  background-color: hsl(0, 0%, 10%);
+  box-shadow: 0 0 .5em 0.2em #0009;
+}
+
