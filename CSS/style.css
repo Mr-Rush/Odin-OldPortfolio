@@ -116,3 +116,11 @@ h1{
   box-shadow: 0 0 .5em 0.2em #0009;
 }
 
+.linkedin {
+  margin-top: 3px;
+  margin-left: 15px;
+  vertical-align: middle;
+  width: 30px;
+  height: 30px;
+  padding-bottom: 5px;
+}
