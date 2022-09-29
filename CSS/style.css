@@ -34,11 +34,12 @@ h1{
 
   /* Style the tab */
 .tab {
-  margin-right: 50px;
+    flex-direction: column;
+    margin-right: 50px;
     float: left;
     border: 1px solid #ccc;
     background-color: #1e2124;
-    width: 15%;
+    width: 400px;
     height: 300px;
     border-radius: 10%;
     padding: 10px;
@@ -94,6 +95,13 @@ h1{
 }
 
 .port {
+  margin-right: 1%;
+  width: 26.5%;
+  padding-left: 1%;
+  color: white;
+}
+
+.portandre {
   margin-right: 40px;
   width: 26.5%;
   padding-left: 10px;
