@@ -29,6 +29,15 @@ h1{
     padding-bottom: 5px;
   }
 
+  #portofolinios {
+    display: flex;
+    width: 80%;
+    height: 100%;
+    gap: 50px;
+    justify-content: baseline;
+    align-items: center;
+    flex-wrap: wrap;
+  }
 
 
 
@@ -95,16 +104,10 @@ h1{
 }
 
 .port {
-  margin-right: 1%;
-  width: 26.5%;
-  padding-left: 1%;
-  color: white;
-}
-
-.portandre {
-  margin-right: 40px;
-  width: 26.5%;
-  padding-left: 10px;
+  /* margin-right: 1%; */
+  /* width: 26.5%; */
+  /* padding-left: 1%; */
+  height: 1009;
   color: white;
 }
 
@@ -116,6 +119,7 @@ h1{
   flex-flow: column;
   gap: 1em;
   align-items: center;
+  height: 100%;
   width: min(40vw, 25em);
   padding: 2em;
   border: 1px solid currentColor;
